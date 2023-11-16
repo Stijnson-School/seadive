@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(./IMG/background.png);
+}
+
+img{
+    width: 20vh;
+    position: absolute;
+}
+
+#dolfijn{
+    left: 5%;
+    bottom: 5%;
+    rotate: 10deg;
+}
+
+#schildpad{
+    right: 5%;
+    top: 5%;
+    rotate: 10deg;
+}
+
+#krap{
+    right: 5%;
+    bottom: 5%;
+    rotate: -10deg;
+}
+
+#walvis{
+    left: 5%;
+    top: 5%;
+    rotate: -10deg;
+}
+
+.speluitleg-container{
+    position: fixed;
+    background: rgba(255, 255, 255, 0.39);
+    width: 90%;
+    height: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: groove 8px;
+    overflow-y: scroll;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5%;
+    color: rgb(0, 0, 95);
+}
+
+p{
+    width: 80%;
+    margin: 0 auto;
+}
+
+span{
+    font-weight: bold;
+    color: rgb(0, 0, 95);
+}
+
+p img{
+    height: 50px;
+    width: fit-content;
+    margin-left: 20px;
+}
+
+#nemo{
+    margin-left: 100px;
+}
+
+ul li img{
+    height: 50px;
+    width: fit-content;
+}
+
+ul{
+    margin: -25px 0 5% 10%;
+    line-height: 6vh;
+    list-style: none;
+}
+
+
+ul li span{
+    margin-left: 75px;
+    font-weight: normal;
+    color: black;
+}
